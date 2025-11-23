@@ -1,0 +1,106 @@
+:root{
+--bg: #ffffff;
+--surface: #f7f8fa;
+--muted: #6c757d;
+--text: #212529;
+--primary: #0d6efd; 
+--accent: #0b5ed7;
+--success: #198754;
+--danger: #dc3545;
+--card-radius: 12px;
+--shadow-1: 0 1px 3px rgba(16,24,40,0.06);
+--shadow-2: 0 6px 20px rgba(16,24,40,0.08);
+}
+
+/* ====== RESET / BASE ====== */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+background: linear-gradient(180deg, var(--surface) 0%, #ffffff 100%);
+font-family: Inter, "Segoe UI", Roboto, system-ui, -apple-system, 'Helvetica Neue', Arial;
+color:var(--text);
+margin:0;
+line-height:1.45;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+
+.container{max-width:1100px}
+
+h1,h2,h3{margin:.25rem 0;color:var(--text)}
+.small-muted{color:var(--muted);font-size:.9rem}
+
+/* ====== NAVBAR / HEADER ====== */
+.navbar-brand{font-weight:700}
+
+/* ====== CARD LAYOUT ====== */
+.card--panel{
+background:var(--bg);
+border-radius:var(--card-radius);
+box-shadow:var(--shadow-1);
+border:1px solid rgba(16,24,40,0.04);
+padding:1rem;
+}
+
+.card--section{padding:1rem;margin-bottom:1rem;background:transparent}
+
+/* ====== TABS ====== */
+.nav-tabs{
+border-bottom:0;
+gap:6px;
+justify-content:center;
+}
+.nav-tabs .nav-link{
+border:1px solid rgba(16,24,40,0.06);
+border-bottom:0;
+border-radius:8px 8px 0 0;
+padding:.45rem .8rem;
+color:var(--muted);
+background:transparent;
+}
+.nav-tabs .nav-link.active{
+background:var(--bg);
+color:var(--text);
+font-weight:600;
+box-shadow:var(--shadow-1);
+}
+
+/* ====== FORMULÁRIOS ====== */
+.form-control,
+.form-select{
+border-radius:8px;
+border:1px solid rgba(16,24,40,0.08);
+padding:.5rem .6rem;
+}
+.btn{
+border-radius:10px;
+}
+.btn-primary{background:var(--primary);border-color:var(--primary)}
+
+
+.table-clean{
+width:100%;
+}
+
+#cartoes_container {
+  width: 100%;
+  overflow-x: auto;          /* scroll horizontal elegante */
+  padding-bottom: 8px;
+}
+
+#cartoes_container table {
+  width: max-content;   
+  max-width: 100%;          
+}
+
+#cartoes_container td, 
+#cartoes_container th {
+  white-space: nowrap;      
+}
+
+#cartoes_container table td:nth-child(3) {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
