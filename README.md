@@ -23,6 +23,7 @@ Sistema de gerenciamento de partidas/
 
 ## 📁 Como Rodar
 
+```
 pip install -r requirements.txt
 python app.py
 ```
