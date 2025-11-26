@@ -3,6 +3,8 @@
 Aplicação em Flask para visualização de classificação, resultados, jogos futuros e controle de cartões do Brasileirão Série A 2025.
 Interface moderna, organizada e com navegação por abas integrada.
 
+Visualize a aplicação real através do link no final deste README.md.
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -33,6 +35,7 @@ python app.py
 ## 🔗 Acesso ao Sistema (Deploy)
 
 O sistema está disponível online pelo Render:
+Uso contramedidas até na versão free para a página não fechar por inatividade, caso feche, aguarde 50 segundos.
 
 ➡️ **https://sistema-de-gerenciamento-de-partidas.onrender.com**
 
