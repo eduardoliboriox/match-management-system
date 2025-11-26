@@ -37,7 +37,7 @@ python app.py
 O sistema está disponível online pelo Render:
 Uso contramedidas até na versão free para a página não fechar por inatividade, caso feche, aguarde 50 segundos.
 
-➡️ **https://sistema-de-gerenciamento-de-partidas.onrender.com**
+➡️ **https://match-management-system.onrender.com**
 
 ---
 ## 👨‍💻 Autor
