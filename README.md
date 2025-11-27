@@ -1,4 +1,4 @@
-🏆 Sistema de Gerenciamento de Partidas — Brasileirão Série A 2025
+🏆 match-management-system — Brasileirão Série A 2025
 
 Aplicação em Flask para visualização de classificação, resultados, jogos futuros e controle de cartões do Brasileirão Série A 2025.
 Interface moderna, organizada e com navegação por abas integrada.
@@ -8,7 +8,7 @@ Visualize a aplicação real através do link no final deste README.md.
 ## 📁 Estrutura do Projeto
 
 ```
-Sistema de gerenciamento de partidas/
+match-management-system/
 ├─ static/
 │   └─ style.css  
 ├─ templates/
@@ -18,7 +18,8 @@ Sistema de gerenciamento de partidas/
 ├─ brasileirao.db
 ├─ ping.py      
 ├─ Profile  
-├─ README.md      
+├─ README.md 
+├─ README.EN.md     
 ├─ requirements.txt   
 ```
 ---
