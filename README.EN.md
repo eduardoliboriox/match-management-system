@@ -20,7 +20,7 @@ match-management-system/
 ├─ ping.py      
 ├─ Profile  
 ├─ README.md 
-├─ README.ENG.md     
+├─ README.EN.md     
 ├─ requirements.txt   
 ```
 
